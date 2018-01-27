@@ -1,0 +1,158 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700&subset=latin-ext');
+
+html,body{
+	font-family: 'Maven Pro', sans-serif !important;
+	height: 100%;
+}
+
+.vertical-menu {
+    width: 100%; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 30px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+	font-size: 1.2em;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+	text-decoration: none;
+}
+
+.vertical-menu a.active {
+    background-color: #1a8fe3; /* Add a green color to the "active/current" link */
+    color: white;
+	font-weight: 500;
+}
+
+.sidebar{
+	padding: 0px !important;
+	margin: 0px !important;
+	height: 100%;
+	background: #eee;
+    box-shadow: 1px 2px 10px #aaaaaa;
+
+
+}
+
+.myRow{
+	height: 100%;
+}
+
+.myContainer{
+	height: 100%;
+}
+
+.content{
+	padding: 15px;
+}
+
+img.alogo{
+	margin-bottom: 5px;
+}
+
+.loginwrapper{
+	background: #1a8fe3;
+	height: 100%;
+}
+
+footer{
+	text-align: center;
+    align-items: center;
+}
+
+footer ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: #fff;
+}
+
+footer ul li a:hover{
+	color: #fefefe;
+}
+
+footer ul li{
+	padding: 10px 20px;
+	float: left;
+}
+
+footer ul li a{
+	color: #fff;
+}
+
+.loginlogo{
+	width: 50%;
+}
+
+.center{
+	text-align: center;
+	align-content: center;
+}
+
+/*.loginimage{
+	height: 50%;
+	width: 50%;
+}
+
+.wrapper{
+	height: 100%;
+}
+
+.amenu{
+	padding-top: 50px;
+}
+
+.amenu li{
+	display: block;
+	padding: 100px 0px;
+
+}
+
+.sidearea{
+	padding: 0px !important;
+	height: 100%;  
+  display: flex;
+  flex-direction: column;
+	
+}
+
+.sidearea > nav {
+	text-align: center;
+}
+
+.sidearea > nav > a{
+	color: #666;
+}
+
+.sidearea>nav>a:hover{
+	color: #4789E2;
+}
+
+.wrapper {
+ 	height: 100%;
+	display: flex;
+}
+
+
+img.alogo{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#contentarea{
+	background: #ECEFF1;
+	height: 100%;
+}
+
+.vertical-menu {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+}*/
