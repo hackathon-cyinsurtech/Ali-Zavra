@@ -27,6 +27,48 @@
 			  <a href="customers.php" class="active">Customers</a>
 			  <a href="behavior.php">Behavioral Analysis</a>
 			</div></div>
+
+			<!-- The Modal -->
+			<div id="modal" class="modal">
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span id="close-modal" class="close">&times;</span>
+			    <div class="row">
+			    	<div class="col-md-4">
+			    		<img src="img/person.jpg" width="80%" height="auto">
+			    	</div>
+			    	<div class="col-md-8">
+			    		<table class="table" style="width:100%">
+			    			<h3>Info:</h3>
+							  <tr>
+							    <th>Name:</th>
+							    <td>Light</td>
+							  </tr>
+							  <tr>
+							    <th>Surname:</th>
+							    <td>Yagami</td>
+							  </tr>
+							  <tr>
+							    <th>Telephone:</th>
+							    <td>555 77 855</td>
+							  </tr>
+						</table>
+						<table class="table" style="width:100%">
+							<h3>Generated Intelligence:</h3>
+							<tr>
+							    <th>Prefered contact media:</th>
+							    <td>Facebook Chat</td>
+							  </tr>
+							  <tr>
+							    <th>Prefered contact time:</th>
+							    <td>15:00 - 18:00</td>
+							  </tr>
+						</table>
+			    	</div>
+			    </div>
+			  </div>
+			</div>
+
 			<div class="col-md-10 content">
 				<div class="panel panel-default">
 					<div class="panel-heading"><h3>Filters</h3></div>
@@ -97,6 +139,7 @@
 									<th>Balance</th>
 									<th>Household Insurance</th>
 									<th>Car Insurance</th>
+									<th>Get in touch</th>
 								</thead>
 								<tbody>
 									<?php 
@@ -116,6 +159,7 @@
 									              	<td><?=$customer['balance']?></td>
 									              	<td><?=$customer['hhinsurance']?></td>
 									              	<td><?=$customer['carinsurance']?></td>
+									              	<td><button class="btn btn-default" onclick="modalBtn()">Get in touch</button></td>
 									              </tr>
 									              <?php
 									            }
@@ -134,35 +178,6 @@
 
 		</div>
 	</div>
-<!--
-	<div class="wrapper">
-		<div class="row">
-
-			<div class="col-md-2 sidearea">
-				<img src="advisor_logo.svg" alt="advisor logo" class="alogo">
-				<nav class="nav flex-column  vertical-menu">
-				  <a class="nav-link" href="#">Overview</a>
-				  <a class="nav-link" href="#">Insights</a>
-				  <a class="nav-link" href="#">Customers</a>
-				  <a class="nav-link" href="#">Calendar</a>
-				</nav>
-			</div>
-
-			<div id="contentarea" class="col-md-10">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h1>Customers</h1>
-					</div>
-					<div class="panel-body">
-						
-					</div>
-					
-					
-				</div>
-			</div>
-		</div>
-    </div>
--->
 
     </body>
 </html>
@@ -176,4 +191,30 @@
 	<script src="https://code.highcharts.com/highcharts.js"></script>
 	<script src="https://code.highcharts.com/modules/exporting.js"></script>
 	<script src="js/advisor.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		// When a chart button is clicked open the respective modal
+		function modalBtn(){
+			// Get the <span> element that closes the modal
+			var spanID = 'close-modal';
+			var span = document.getElementById(spanID);
+
+			var modalID = 'modal';
+			// Get the modal
+			var modal = document.getElementById(modalID);
+			modal.style.display = "block";
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			    modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			    if (event.target == modal) {
+			        modal.style.display = "none";
+			    }
+			}
+		}
+	</script>
 

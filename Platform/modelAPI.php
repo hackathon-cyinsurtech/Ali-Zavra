@@ -17,6 +17,7 @@
                   <th>Balance</th>
                   <th>Household Insurance</th>
                   <th>Car Insurance</th>
+                  <th>Get in touch</th>
                 </thead>
                 <tbody>';
 
@@ -46,6 +47,7 @@
                           <td>'.$customer['balance'].'</td>
                           <td>'.$customer['hhinsurance'].'</td>
                           <td>'.$output[$count].'</td>
+                          <td><button class="btn btn-default" onclick="modalBtn()">Get in touch</button></td>
                         </tr>';
                         $count++;
                   }        
