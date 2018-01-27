@@ -96,63 +96,61 @@ footer ul li a{
 	align-content: center;
 }
 
-/*.loginimage{
-	height: 50%;
-	width: 50%;
+/* pANAXAS*/
+form {
+    border: 3px solid #f1f1f1;
 }
 
-.wrapper{
-	height: 100%;
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
-.amenu{
-	padding-top: 50px;
+.loginbutton {
+    background-color: #82899C;
+    color: black;
+    font-weight: 550;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
-.amenu li{
-	display: block;
-	padding: 100px 0px;
-
+.loginbutton:hover {
+    opacity: 0.8;
 }
 
-.sidearea{
-	padding: 0px !important;
-	height: 100%;  
-  display: flex;
-  flex-direction: column;
-	
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
 }
 
-.sidearea > nav {
-	text-align: center;
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
 }
 
-.sidearea > nav > a{
-	color: #666;
+.container1 {
+    padding: 100px;
 }
 
-.sidearea>nav>a:hover{
-	color: #4789E2;
+span.psw1 {
+    float: right;
+    padding-top: 16px;
 }
 
-.wrapper {
- 	height: 100%;
-	display: flex;
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
 }
-
-
-img.alogo{
-	margin-bottom: 20px;
-	width: 100%;
-}
-
-#contentarea{
-	background: #ECEFF1;
-	height: 100%;
-}
-
-.vertical-menu {
-    width: 200px;
-    height: 150px;
-    overflow-y: auto;
-}*/

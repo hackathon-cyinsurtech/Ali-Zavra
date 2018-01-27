@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insight</title>
+<title>Overview</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -21,70 +21,74 @@
 			<div class="col-md-2 sidebar">
 			<img src="advisor_logo.svg" alt="advisor logo" class="alogo">
 			<div class="vertical-menu">
-			  <a href="overview.php">Overview</a>
-			  <a href="insight.php" class="active">Insight</a>
+			  <a href="index.php" class="active">Overview</a>
+			  <a href="insight.php">Insight</a>
 			  <a href="customers.php">Customers</a>
 			  <a href="behavior.php">Behavioral Analysis</a>
 			</div></div>
+
+			<!-- Main Content -->
 			<div class="col-md-10 content">
 				<div class="panel panel-default">
-					<div class="panel-heading"><h3>Filters</h3></div>
+					<div class="panel-heading"><h3>Welcome John</h3></div>
 					<div class="panel-body">
-						<div class="col-md-2">
-						<h5>Age Range</h5>
-							<input type="text" id="age-filter-insight" name="age-filter" value="" />
-						</div>
-						<div class="col-md-2">
-							<h5>Marital Status</h5>
-							<select name="marital">
-								<option value="single">Single</option>
-								<option value="divorced">Divorced</option>
-								<option value="married">Married</option>
-							</select>
-						</div>
-						<div class="col-md-2">
-						<h5>Education</h5>
-							<select name="Education">
-								<option value="primary">Primary</option>
-								<option value="secondary">Secondary</option>
-								<option value="tertiary">Tertiary</option>
-							</select>
-						</div>
-						<div class="col-md-2">
-							<h5>Balance</h5>
-							<select name="Balance">
-								<option value="1">€0 - €1.000</option>
-								<option value="2">€1.000 - €10.000</option>
-								<option value="3">€10.000 - €50.000</option>
-								<option value="4">€50.000 - €100.000</option>
-								<option value="5">> €100.000</option>
-							</select>
-						</div>
 						<div class="col-md-4">
-							<h5>Looking For</h5>
-						  		<select class="form-control selectpicker" name="cross-sale[]" id="cross-sale" multiple="multiple">		<option value="Household">Household</option>
-									<option value="Health">Health</option>
-									<option value="Car Insurance">Car Insurance</option>		  
-								</select>
-						  <button type="button" id="insight-btn" class="btn btn-default btn-lg">
-							  <span class="glyphicon" aria-hidden="true"></span> Show
-							</button>
-							
+							<h5>Calls made yesterday: 9</h5>
+							<h5>Calls made in the current month: 102</h5>
+							<h5>Calls made in the previous month: 23</h5>
 						</div>
+						<div class="col-md-4"></div>
+						<div class="col-md-4"></div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading"><h3>Overview</h3></div>
+					<div class="panel-body">
+						<div class="col-md-12"><div id="stat3" style="min-width: 310px; height: 400px; margin: 0 auto"></div></div>
+
+						<div class="col-md-6"><div id="stat1" style="min-width: 310px; height: 400px; margin: 0 auto"></div></div>
+
+						<div class="col-md-6"><div id="stat2" style="min-width: 310px; height: 400px; margin: 0 auto"></div></div>
+
+
 
 					</div>
 				</div>
 				
-				<div class="panel panel-default">
-					<div class="panel-heading"><h3>Insight</h3></div>
-					<div class="panel-body" id="myInsight">
-						
-					</div>
-				</div>
 			</div>
 
 		</div>
 	</div>
+<!--
+	<div class="wrapper">
+		<div class="row">
+
+			<div class="col-md-2 sidearea">
+				<img src="advisor_logo.svg" alt="advisor logo" class="alogo">
+				<nav class="nav flex-column  vertical-menu">
+				  <a class="nav-link" href="#">Overview</a>
+				  <a class="nav-link" href="#">Insights</a>
+				  <a class="nav-link" href="#">Customers</a>
+				  <a class="nav-link" href="#">Calendar</a>
+				</nav>
+			</div>
+
+			<div id="contentarea" class="col-md-10">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h1>Customers</h1>
+					</div>
+					<div class="panel-body">
+						
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+    </div>
+-->
 
     </body>
 </html>
@@ -97,5 +101,8 @@
 	<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
 	<script src="https://code.highcharts.com/highcharts.js"></script>
 	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/data.js"></script>
+	<script src="https://code.highcharts.com/modules/drilldown.js"></script>
 	<script src="https://code.highcharts.com/modules/exporting.js"></script>
 	<script src="js/advisor.js" type="text/javascript"></script>

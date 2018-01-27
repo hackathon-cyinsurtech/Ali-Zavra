@@ -44,6 +44,9 @@ $(document).ready(function(){
 	 	var age = $("#age-filter").data("ionRangeSlider");
 		var min_age = age.result.from;
 		var max_age = age.result.to;
+		$('.table-responsive').html('');
+		$('.sk-folding-cube').css('display','block');		
+
 		$.ajax({  
 	                url:"http://localhost/hackathon/Product/modelAPI.php",  
 	                method:"GET",  
@@ -53,9 +56,9 @@ $(document).ready(function(){
 	                	max_age:max_age
 	                },  
 	                success:function(data){ 
-	                	alert(data);
 	                	$('.table-responsive').html('');
 	                	$('.table-responsive').html(data);
+	                	$('.sk-folding-cube').css('display','none');	
 	                	$('#customertable').DataTable({
 	                		"order": [[ 8, "desc" ]]
 	                	});

@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/loading.css" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
 	<link rel="stylesheet" href="css/ion.rangeSlider.css">
@@ -21,9 +22,10 @@
 			<div class="col-md-2 sidebar">
 			<img src="advisor_logo.svg" alt="advisor logo" class="alogo">
 			<div class="vertical-menu">
-			  <a href="index.php">Overview</a>
+			  <a href="overview.php">Overview</a>
 			  <a href="insight.php">Insight</a>
 			  <a href="customers.php" class="active">Customers</a>
+			  <a href="behavior.php">Behavioral Analysis</a>
 			</div></div>
 			<div class="col-md-10 content">
 				<div class="panel panel-default">
@@ -77,6 +79,12 @@
 				<div class="panel panel-default">
 					<div class="panel-heading"><h3>Customers</h3></div>
 					<div class="panel-body">
+						<div class="sk-folding-cube" style="display: none;">
+						  <div class="sk-cube1 sk-cube"></div>
+						  <div class="sk-cube2 sk-cube"></div>
+						  <div class="sk-cube4 sk-cube"></div>
+						  <div class="sk-cube3 sk-cube"></div>
+						</div>
 						<div class="table-responsive">
 							<table id="customertable">
 								<thead>
