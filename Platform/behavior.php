@@ -27,7 +27,56 @@
 				  <a href="behavior.php"  class="active">Behavioral Analysis</a>
 				</div>
 			</div>
+
+			<div class="col-md-10 content">
+				<div class="col-md-12">
+					<div class="panel panel-default">
+						<div class="panel-heading"><h3>What is it?</h3></div>
+						<div class="panel-body">
+							<p>
+								An intelligent system that monitors excisting customers and their friends on social media, to create
+								a behaviorial model of the users. This system will use deep learning with a convolutional
+								neural network to analyze the data and extract value from them. It will be able to detect objects
+								in the images uploaded by the user and recommend the appropriate insurance plans. 
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-12">
+					<div class="panel panel-default">
+						<div class="panel-heading"><h3>What we need to do:</h3></div>
+						<div class="panel-body">
+							<div class="col-md-7">
+								<ul>
+									<li><h5>Monitor our customers and their friends on Social media through APIs</h5>
+										<ul>
+											<li>e.g. <a href="https://developer.twitter.com/en/docs">https://developer.twitter.com/en/docs</a> </li>
+										</ul>
+									</li>
+									<li><h5>Build deep learning neural networks with the use of flexible frameworks</h5>
+										<ul>
+											<li>e.g. <a href="https://www.tensorflow.org/">https://www.tensorflow.org/</a> </li>
+										</ul>
+									</li>
+									<li><h5>Utilize data to propose suiting insurance plans to current or new customers</h5>
+										<ul>
+											<li>e.g. After analyzing photos of the user, the neural network discovers a new car and
+											prepares a car insurance plan proposition to later forward to the potential customer</li>
+										</ul>
+									</li>
+								</ul>
+								
+								
+							</div>
+							<div class="col-md-5"><img src="img/neural.gif" width="100%" height="auto"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 		</div>
+		
 	</div>
 
 </body>
