@@ -2,7 +2,23 @@
 
 ![alt text](https://github.com/hackathon-cyinsurtech/Ali-Zavra/blob/master/screenshots/advisor_logo.png)
 
-### Screenshots
+### Description: 
+Yπηρεσία η οποία επιλύει το πρόβλημα του decision making από τον ασφαλιστή, κυρίως γύρω από το θέμα του cross-sales. Συγκεκριμένα, προσφέρει στον ασφαλιστή την δυνατότητα να προσεγγίζει στοχευμένα τους καταναλωτές με τη χρήση γνώσης που παρέχεται αυτοματοματοποιημένα από έξυπνα μοντέλα μηχανικής μάθησης.
+
+### Team:
+* Giorgos Demosthenous <georgedemo2000@gmail.com>
+* Kyriakos Kyriakou <kyriakos93@gmail.com>
+* Giorgos Papanastasiou <georgelca@gmail.com>
+
+### Dataset:
+* Car Insurance Cold Calls: https://www.kaggle.com/kondla/carinsurance
+
+### Requirements:
+* Python
+* Server
+* Scikit-learn: http://scikit-learn.org
+
+### Screenshots:
 
 ![alt text](https://github.com/hackathon-cyinsurtech/Ali-Zavra/blob/master/screenshots/ov1.png)
 
