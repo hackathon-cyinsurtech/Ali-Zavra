@@ -72,6 +72,7 @@ $(document).ready(function(){
 		var max_age = age.result.to;
 		var ages = [18,25,30,40,60];		
 		$('.sk-folding-cube').css('display','block');	
+		$('.learn').css('display','none');
 
 		$.ajax({  
 	                url:"http://localhost/hackathon/Product/factorsAPI.php",  

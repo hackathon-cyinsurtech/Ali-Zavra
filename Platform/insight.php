@@ -85,6 +85,7 @@
 						  <div class="sk-cube4 sk-cube"></div>
 						  <div class="sk-cube3 sk-cube"></div>
 						</div>
+						<h4 class="learn">Learn to better approach your potential customers</h4>
 					</div>
 				</div>
 			</div>

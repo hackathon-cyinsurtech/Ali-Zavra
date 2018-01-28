@@ -36,8 +36,6 @@ html,body{
 	height: 100%;
 	background: #eee;
     box-shadow: 1px 2px 10px #aaaaaa;
-
-
 }
 
 .myRow{
@@ -191,4 +189,12 @@ span.psw1 {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.notification{
+    background-color: #1a8fe3 !important;
+}
+
+.learn{
+    text-align: center;
 }

@@ -19,28 +19,53 @@
 	<div class="container-fluid myContainer">
 		<div class="row myRow">
 			<div class="col-md-2 sidebar">
-			<img src="img/advisor_logo.png" width="100%" height="auto" alt="advisor logo" class="alogo">
-			<div class="vertical-menu">
-			  <a href="index.php" class="active">Overview</a>
-			  <a href="insight.php">Insight</a>
-			  <a href="customers.php">Customers</a>
-			  <a href="behavior.php">Behavioral Analysis</a>
-			</div></div>
+				<img src="img/advisor_logo.png" width="100%" height="auto" alt="advisor logo" class="alogo">
+				<div class="vertical-menu">
+				  <a href="index.php" class="active">Overview</a>
+				  <a href="insight.php">Insight</a>
+				  <a href="customers.php">Customers</a>
+				  <a href="behavior.php">Behavioral Analysis</a>
+				</div>
+			</div>
 
 			<!-- Main Content -->
 			<div class="col-md-10 content">
-				<div class="panel panel-default">
-					<div class="panel-heading"><h3>Welcome John</h3></div>
-					<div class="panel-body">
-						<div class="col-md-4">
-							<h5>Calls made yesterday: 9</h5>
-							<h5>Calls made in the current month: 102</h5>
-							<h5>Calls made in the previous month: 23</h5>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-heading"><h3>Welcome John</h3></div>
+							<div class="panel-body">
+								<h5>To-do:</h5>
+								<hr>
+								<p>Meeting at 10:00 <span class="label label-warning">Meeting</span></p>
+								<p>Visit Mark for a new health insurance<span class="label label-info">Customer Relation</span></p>
+								<p>Call Andrew to propose a car insurance for his new car <span class="label label-info">Customer Relation</span></p>
+								<p>Call Maria to resolve the issue with her insurance plan <span class="label label-info">Customer Relation</span></p>
+								<p>Prepare presentation on "Insurance focus on millenials" <span class="label label-default">Obligations</span></p>
+							</div>
 						</div>
-						<div class="col-md-4"></div>
-						<div class="col-md-4"></div>
 					</div>
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-heading"><h3>What's new</h3></div>
+							<div class="panel-body">
+								
+								<p>You have <span class="notification badge">13</span>  new emails</p>
+								<p>You missed <span class="notification badge">2</span> calls</p>
+								<hr>
+								<h5>You might want to check out these articles:</h5>
+								<ul>
+									<li><a href="https://www.forbes.com/sites/bernardmarr/2017/10/24/how-ai-and-machine-learning-are-used-to-transform-the-insurance-industry/#1281dfeb13a1">How AI And Machine Learning Are Used To Transform The Insurance Industry</a></li>
+									<li><a href="https://www.ft.com/content/bb9f1ce8-f84b-11e6-bd4e-68d53499ed71">Insurance and the big data technology revolution</a></li>
+									<li><a href="https://www.forbes.com/sites/danielnewman/2017/09/05/top-5-digital-transformation-trends-in-insurance/#51d527a130ba">Top 5 Digital Transformation Trends in Insurance</a></li>
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+					
 				</div>
+				
 
 				<div class="panel panel-default">
 					<div class="panel-heading"><h3>Overview</h3></div>
@@ -60,35 +85,6 @@
 
 		</div>
 	</div>
-<!--
-	<div class="wrapper">
-		<div class="row">
-
-			<div class="col-md-2 sidearea">
-				<img src="advisor_logo.svg" alt="advisor logo" class="alogo">
-				<nav class="nav flex-column  vertical-menu">
-				  <a class="nav-link" href="#">Overview</a>
-				  <a class="nav-link" href="#">Insights</a>
-				  <a class="nav-link" href="#">Customers</a>
-				  <a class="nav-link" href="#">Calendar</a>
-				</nav>
-			</div>
-
-			<div id="contentarea" class="col-md-10">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h1>Customers</h1>
-					</div>
-					<div class="panel-body">
-						
-					</div>
-					
-					
-				</div>
-			</div>
-		</div>
-    </div>
--->
 
     </body>
 </html>
