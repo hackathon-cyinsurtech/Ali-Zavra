@@ -12,14 +12,15 @@
 	<link rel="stylesheet" href="css/ion.rangeSlider.css">
 	<link rel="stylesheet" href="css/ion.rangeSlider.skinNice.css" />
 	<link rel="stylesheet" href="css/normalize.css" />
-	<link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
+	<link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>	
+    <link href="css/loading.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<div class="container-fluid myContainer">
 		<div class="row myRow">
 			<div class="col-md-2 sidebar">
-			<img src="advisor_logo.svg" alt="advisor logo" class="alogo">
+			<img src="img/advisor_logo.png" width="100%" height="auto" alt="advisor logo" class="alogo">
 			<div class="vertical-menu">
 			  <a href="overview.php">Overview</a>
 			  <a href="insight.php" class="active">Insight</a>
@@ -36,7 +37,7 @@
 						</div>
 						<div class="col-md-2">
 							<h5>Marital Status</h5>
-							<select name="marital">
+							<select class="form-control" name="marital">
 								<option value="single">Single</option>
 								<option value="divorced">Divorced</option>
 								<option value="married">Married</option>
@@ -44,7 +45,7 @@
 						</div>
 						<div class="col-md-2">
 						<h5>Education</h5>
-							<select name="Education">
+							<select class="form-control" name="Education">
 								<option value="primary">Primary</option>
 								<option value="secondary">Secondary</option>
 								<option value="tertiary">Tertiary</option>
@@ -52,7 +53,7 @@
 						</div>
 						<div class="col-md-2">
 							<h5>Balance</h5>
-							<select name="Balance">
+							<select class="form-control" name="Balance">
 								<option value="1">€0 - €1.000</option>
 								<option value="2">€1.000 - €10.000</option>
 								<option value="3">€10.000 - €50.000</option>
@@ -78,7 +79,12 @@
 				<div class="panel panel-default">
 					<div class="panel-heading"><h3>Insight</h3></div>
 					<div class="panel-body" id="myInsight">
-						
+						<div class="sk-folding-cube" style="display: none;">
+						  <div class="sk-cube1 sk-cube"></div>
+						  <div class="sk-cube2 sk-cube"></div>
+						  <div class="sk-cube4 sk-cube"></div>
+						  <div class="sk-cube3 sk-cube"></div>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -70,7 +70,9 @@ $(document).ready(function(){
 	 	var age = $("#age-filter-insight").data("ionRangeSlider");
 		var min_age = age.result.from;
 		var max_age = age.result.to;
-		var ages = [18,25,30,40,60];
+		var ages = [18,25,30,40,60];		
+		$('.sk-folding-cube').css('display','block');	
+
 		$.ajax({  
 	                url:"http://localhost/hackathon/Product/factorsAPI.php",  
 	                method:"GET",  
@@ -83,7 +85,7 @@ $(document).ready(function(){
 	                	var res = data.split(",");
 	                	$('#myInsight').html('');
 	                	$('#myInsight').html('<div id="container-insighter" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>');
-
+	                	//$('.sk-folding-cube').css('display','none');
 
 	                	// Build the chart
 						Highcharts.chart('container-insighter', {

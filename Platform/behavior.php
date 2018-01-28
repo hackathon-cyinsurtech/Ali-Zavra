@@ -19,7 +19,7 @@
 	<div class="container-fluid myContainer">
 		<div class="row myRow">
 			<div class="col-md-2 sidebar">
-				<img src="advisor_logo.svg" alt="advisor logo" class="alogo">
+				<img src="img/advisor_logo.png" width="100%" height="auto" alt="advisor logo" class="alogo">
 				<div class="vertical-menu">
 				  <a href="overview.php">Overview</a>
 				  <a href="insight.php">Insight</a>
